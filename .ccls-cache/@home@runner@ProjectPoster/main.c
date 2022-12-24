@@ -3,10 +3,11 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-typedef struct user {
+struct user {
   char login;
   char password;
   int number_card;
   int size_favorite;
-  bool admin;
+  bool admin; // 1 или 0
 }
+
